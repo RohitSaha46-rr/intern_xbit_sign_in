@@ -1,0 +1,57 @@
+.right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(2, 7, 75);
+}
+ .right .line{
+    width: 8vw;
+    height: 2vh;
+    background-color: rgb(144, 80, 187);
+}
+ .right .input{
+    width: 23vw;
+    height: 5vh;
+    border: 1px solid rgb(144, 80, 187);
+    outline: rgb(144, 80, 187);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(214, 233, 227);
+    font-size: 1.2rem;
+    padding-left: 5px;
+    color: rgb(7, 18, 112);
+}
+.right #eye{
+    position: relative;
+    right: 34px;
+    top: 5px;
+    color: rgb(144, 80, 187);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+ .right .check{
+    display: flex;
+    padding-top: 10px;
+}
+ .right button{
+    width: 12vw;
+    height: 6vh;
+    margin-top: 20px;
+    background-color:rgb(144, 80, 187);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    font-family:"'Roboto', sans-serif";
+    font-size: 1.5rem;
+    
+    cursor: pointer;
+}
+ .right button:hover{
+    background-color: rgb(2, 7, 75);
+ }

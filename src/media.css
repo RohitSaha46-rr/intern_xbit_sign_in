@@ -1,0 +1,38 @@
+@media (min-width:300px) and (max-width:800px){
+    .right .line{
+        width: 80vw;
+        height: 1vh;
+    }
+    form{
+        padding-left: 10px;
+    }
+    form h1{
+        font-size: 1.3rem;
+    }
+    .right .input{
+        width: 85vw;
+        height: 3.2vh;
+        font-size: 1rem;
+    }
+    .right #eye{
+        font-size: 1rem;
+        position: relative;
+        right: 30px;
+        top: 1px;
+    }
+    .right .down{
+        font-size: 1.2rem;
+    }
+    .right button{
+        width: 32vw;
+        height: 6vh;
+    }
+    
+}
+@media (min-width:500px) and (max-width:800px){
+    .right .input{
+       
+        height: 5vh;
+        font-size: 1.2rem;
+    }
+    }

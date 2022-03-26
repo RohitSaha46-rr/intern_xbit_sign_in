@@ -1,16 +1,29 @@
 @media (min-width:300px) and (max-width:800px){
-    .right .line{
-        width: 80vw;
-        height: 1vh;
+    /* .App{
+        background-image: url('./images/log.jpeg');
+        background-size: 100% 100%;
+    } */
+    
+    .App .kid{
+        display: none;
+    }
+    .right{
+      
+      
+    }
+    .right .inside{
+        width: 95vw;
+        height: 80vh;
+        
     }
     form{
         padding-left: 10px;
     }
-    form h1{
+    form h2{
         font-size: 1.3rem;
     }
     .right .input{
-        width: 85vw;
+        width: 80vw;
         height: 3.2vh;
         font-size: 1rem;
     }
@@ -24,8 +37,8 @@
         font-size: 1.2rem;
     }
     .right button{
-        width: 32vw;
-        height: 6vh;
+        width: 40vw;
+        height: 4vh;
     }
     
 }
